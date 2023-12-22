@@ -1,5 +1,7 @@
 # Document / Windows objects
 
+## Document
+
 The document object is primarily concerned with the content and structure of the HTML document, while the window object deals with the overall browser environment, providing global methods and properties for managing the window and interacting with the browser. Both objects are crucial for JavaScript development in a web context, and they often work together to enable dynamic and interactive web pages.
 
 document Object:
@@ -10,7 +12,8 @@ For example, you can use document.getElementById() to get a reference to an HTML
 javascript
 ## Example: Getting an element by ID
 var myElement = document.getElementById('exampleId');
-window Object:
+
+## Window 
 
 The window object represents the browser window or frame that contains the document.
 It is the top-level object in the browser's object hierarchy and serves as the global object for JavaScript in the browser environment.
